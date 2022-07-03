@@ -1,0 +1,117 @@
+.photogallery{
+    width:1680px;
+    height: 705px;
+}
+.photogallery__body{
+    margin: 128px 0px 128px 190px;
+    height: 449px;
+    width:1490px;
+    position: relative;
+}
+.body__textleft{
+    width: 491px;
+    height: 286px;
+    margin-top: 81.5px;
+    margin-right: 64px;
+    display:inline-block ;
+
+}
+.textleft__title__top{
+    margin: 0px;
+    font-family: 'Cormorant Upright';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+    
+}
+.textleft__title__bottom{
+    font-family: 'Cormorant Upright';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 83px;
+    letter-spacing: 0.03em;
+    text-transform: capitalize;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+    color: #DCCA87;
+    margin: 0px;
+}
+.textleft__title__img{
+    margin: 8px 0px;
+}
+.body__textleft__text{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height:28px;
+    letter-spacing: 0.04em;
+    color: #AAAAAA;
+}
+.body__textleft__btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 136px;
+    height: 44px;
+    background: #DCCA87;
+    font-family: 'Cormorant Upright';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height:  28px;
+    letter-spacing: 0.04em;
+    color: #0C0C0C;
+    padding: 0px;
+    margin-top: 24px;
+}
+.body__photos{
+    width: 1633px;
+    height: 449px;
+    position: absolute;
+    left: 555px;
+    top: 0px;
+}
+.photos{
+    position: relative;
+}
+.photo1{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.photo2{
+    position: absolute;
+    top: 0px;
+    left: 333px;
+    opacity: .4;
+}
+.photos__instagram{
+    position: absolute;
+    top: 203.33px;
+    left: 461.33px;
+    
+}
+.photo3{
+    position: absolute;
+    top: 0px;
+    left: 666px;
+}
+.photo4{
+    position: absolute;
+    top: 0px;
+    left: 999px;
+}
+.circletext.PhotoGallery{
+
+    position: absolute;
+    left: 100px;
+    top: 10720px;
+
+}

@@ -1,0 +1,133 @@
+.wrapper__booktable{
+    width: 1364px;
+    height: 466px;
+    margin:  0px auto;
+    background: #0C0C0C;
+    border: 1px solid rgba(220, 202, 135, 0.2);
+    box-shadow: 22px 30px 95px 1px rgba(0, 0, 0, 0.7);
+    position: relative;
+    margin-bottom: 152px;
+}
+.booktable__text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    width: 352px;
+    height: 160px;
+    position: absolute;
+    left: 506px;
+    margin-bottom: 64px;
+}
+.booktable__title{
+    height: 30px;
+    font-family: 'Cormorant Upright';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+    margin: 0px;
+    
+}
+.booktable_Vector{
+    margin: 8px 0px 17px 0px;
+}
+.booktable__H2{
+    margin: 0px;
+    font-family: 'Cormorant Upright';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height:83px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: capitalize;
+    font-feature-settings: 'tnum' on, 'lnum' on;  
+    color: #DCCA87;
+}
+.booktable__btn{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 32px;
+    gap: 10px;
+    width: 133px;
+    height: 44px;
+    background: #DCCA87;
+    border: 1px solid #DCCA87;
+    font-family: 'Cormorant Upright';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.04em;
+    color: #0C0C0C;
+    padding: 0px;
+    position: absolute;
+    top: 374px;
+    left: 615.5px;
+}
+.booktable__datamenu{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 32px;
+    width: 1300px;
+    height: 60px;
+    position: absolute;
+    bottom: 156px;
+    left: 32px;
+}
+.dataitem{
+    border: 1px solid #F5EFDB;
+    box-sizing: border-box;
+    width: 412px;
+    height: 60px;
+    font-family: 'Cormorant Upright';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+    color: #AAAAAA;
+    position: relative;
+    cursor: pointer;
+    
+}
+.dataitem p{
+    margin: 0px;
+    display: inline;
+    align-items: center;
+    padding: 0px;
+    gap: 298px;
+    position: absolute;
+    height: 28px;
+    left: 16px;
+    top: 16px;
+
+}
+.arrow{
+    position: absolute;
+    right: 21.7px;
+    top: 25.8px;
+}
+.dataitem__Person{
+    top: 0px;
+    left: 0px;
+}
+.circletext.booktable{
+    position: absolute;
+    top: 2120px;
+    right: 106px;
+}

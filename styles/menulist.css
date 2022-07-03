@@ -1,0 +1,31 @@
+.bgglass{
+    width: 1680px;
+    height: 900px;
+    
+}
+.circletext.glass{
+    position: absolute;
+    top: 2929px;
+    left: 137px;
+}
+.menulist{
+    position: relative;
+    margin-bottom: 152px;
+}
+.menulist_list{
+    position: absolute;
+    top: 261px;
+    left: 25px;
+}
+.menulist_list li{
+    font-family: 'Cormorant Upright';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 83px;
+    letter-spacing: 0.03em;
+    text-transform: capitalize;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+    list-style-type:none;
+    margin-bottom: 64px ;
+}

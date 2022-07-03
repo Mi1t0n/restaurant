@@ -1,0 +1,130 @@
+.happycustomers{
+    position: relative;
+    width: 1300px;
+    height: 686px;
+    margin:  0px auto 159px ;
+
+}
+.happycustomers__titel{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    width: 467px;
+    height: 138px;
+    position: absolute;
+    top: 0px;
+    left: 417.5px;
+}
+.titel__top{
+    font-family: 'Cormorant Upright';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+    margin: 0px;
+}
+.titel__vector{
+    margin: 8px 0px;
+
+}
+.titel__bottom{font-family: 'Cormorant Upright';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 130%;
+    letter-spacing: 0.03em;
+    text-transform: capitalize;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+    color: #DCCA87;
+    margin: 0px;
+}
+.person{
+    position: relative;
+    width: 634px;
+    height: 210px;
+    display: inline-block;
+}
+.person__photo{
+    height: 190px;
+}
+.persontext{
+    width: 412px;
+    height: 174px;
+    position: absolute;
+    top: 18px;
+    right: 0px;
+}
+.happycustomers__line1{
+    position: absolute;
+    top: 202px;
+    left: 0px;
+}
+.happycustomers__line2{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+.person__comment{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    font-family: 'Open Sans';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 175%;
+    letter-spacing: 0.04em;
+    color: #AAAAAA;
+    width: 415px;
+    height: 84px;
+    margin: 0px;
+}
+.nameandjob{
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    width: fit-content; 
+}
+.person__name{
+    font-family: 'Cormorant Upright';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 42px;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+    color: #DCCA87;
+    margin: 0px;
+    
+}
+.person__job{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.04em;
+    color: #F5EFDB;
+    margin: 4px 0px 0px 0px;
+}
+.quoteunderphoto::before{
+    font-family: Georgia, serif;
+    position: absolute;
+    font-size: 150px;
+    line-height: 1;
+    content: "\201D";
+    transform: rotate(-180deg);
+    top:70px;
+    left: 155px;
+}
+.circletext.chief{
+    position: absolute;
+    top:-150px ;
+    right: 50px;
+}

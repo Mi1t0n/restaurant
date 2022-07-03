@@ -1,0 +1,164 @@
+.todaysspacial__title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+    width: 409px;
+    height: 138px;
+    margin:  0px auto 64px ;
+}
+.title__toptext{
+    font-family: 'Cormorant Upright';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 30px;
+
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    margin: 0px;
+
+}
+.title__img{
+    margin: 8px 0px;
+}
+.title__bottomtext{
+    font-family: 'Cormorant Upright';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height:  83px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    color: #DCCA87;
+    margin: 0px;
+}
+.todaysspacial__menu{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 32px;
+
+}
+.todaysspacial{
+    width: 1300px;
+    height: 970px;
+   margin: 0px 190px 0px 190px; 
+   position: relative;
+   margin-bottom: 152px;
+}
+.todaysspacial li{
+    list-style-type:none;
+}
+.todaysspacial__wineandbeer,.todaysspacial__cocktails{
+    width: 412px;
+    height: 596px;
+}
+.shake{
+    width: 444px;
+    height: 659px;
+}
+
+
+.wineandbeer__title,.cocktails__title{
+    font-family: 'Cormorant Upright';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 58px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+    margin:  0px  0px 48px 0px;
+
+}
+.toptext{
+    font-family: 'Cormorant Upright';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 32px;
+    width: 412px;
+    height: 30px;
+    justify-content: space-between;
+    position: relative;
+    
+}
+.todaysspacial__btn{
+    position: absolute;
+    bottom: 0px;
+    left: 582px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 32px;
+    width: 136px;
+    height: 44px;
+    background: #DCCA87;
+    font-family: 'Cormorant Upright';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height:28px;
+    letter-spacing: 0.04em;
+    color: #0C0C0C;
+    padding: 0px;
+}
+.toptext__name,.toptext__price{
+    font-family: 'Cormorant Upright';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+    
+}
+.toptext__name{
+    color: #DCCA87;
+    margin: 0px;
+}
+.toptext__line{
+    width: 119px;
+    border: #AAAAAA 1px solid;
+    background-color: #AAAAAA;
+    position: absolute;
+    left:224px ;
+    top: 14.5px;
+    margin: 0px;
+}
+.listof li{
+    margin-bottom: 40px;
+}
+.listof{
+    padding: 0px;
+    margin: 0px;
+}
+.structure{
+    width: fit-content;
+    height: 28px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #AAAAAA;
+    margin-top: 8px;
+}

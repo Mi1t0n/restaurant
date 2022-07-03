@@ -1,0 +1,102 @@
+.wrapper__textwithknife{
+    width: 1680px;
+    height: 959px;
+    position: relative;
+    margin-bottom: 157px;
+
+}
+.bg{
+    width: 1680px;
+    height: 959px;
+    opacity: .5;
+}
+
+.Gbehind{
+    font-family: 'Cormorant Upright';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 700px;
+    margin: 0px;
+    position: absolute;
+    left:580px;
+    top: 70px;
+    color: #272727;
+    z-index: 0;
+}
+.Knife{
+    z-index: 1;
+    position: absolute;
+    left: 792px;
+    top: 120px;
+}
+.textleft{
+    text-align: right;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 0px;
+    gap: 32px;
+    position: absolute;
+    width: 523px;
+    height: 292px;
+    top: 340px;
+    left: 195px;
+    z-index: 1;
+}
+.Vectorknife{
+    margin: 8px 0px 32px  0px;
+}
+.textleft .Vectorknife{
+    transform: rotate(-180deg);
+}
+.textright{
+    text-align: left;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 32px;
+    position: absolute;
+    width: 523px;
+    height: 292px;
+    top: 340px;
+    right:195px;
+    z-index: 1;
+}
+.H2{
+    margin: 0px;
+    font-family: 'Cormorant Upright';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 83px;
+    letter-spacing: 0.03em;
+    text-transform: capitalize;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+    color: #DCCA87;
+
+}
+.PKnife{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.04em;
+    color: #AAAAAA;
+}
+.Knifebtn{
+    margin-top:40px ;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 32px;
+    width: 146px;
+    height: 44px;
+    background: #DCCA87;
+    font-family: 'Cormorant Upright';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height:28px;
+    letter-spacing: 0.04em;
+    color: #0C0C0C;
+    cursor: pointer;
+}

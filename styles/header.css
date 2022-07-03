@@ -1,0 +1,68 @@
+.wrapper__header li{
+    list-style-type:none;
+    display: inline-block;
+}
+a,a:active,a:hover{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.wrapper{
+    width: 1680px;
+    padding: 0px 120px;
+}
+.wrapper__header{
+    position: relative;
+}
+.header__logo{
+    margin-top: 32px;
+    margin-bottom:  80px; ;
+    font-family: 'Cormorant Upright';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height:57px;
+    text-align: start;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+}
+.header__menu{
+    display: flex;
+    flex-direction: row nowrap;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 32px;
+    position: absolute;
+    left: 636px;
+    top: 0px;
+}
+.header__userin{
+    display: inline;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+
+}
+.LogInRegistration{
+    padding-right: 50px;
+    border-right: 1px solid ;
+}
+.BookTable{
+    padding-left: 50px;
+}
+.userin__item{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.05em;
+    text-transform: capitalize;
+}
+.menu__item{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 175%;
+    letter-spacing: 0.04em;
+}

@@ -1,0 +1,154 @@
+
+.whatwebelieve{
+    width: 1680px;
+    height: 1045px;
+    position: relative;
+    margin-bottom:152px ;
+}
+.mainblock__photo{
+    width: 634px;
+    height: 789px;
+    position: absolute;
+    top: 128px;
+    left: 190px;
+}
+.photo__chiefcube1,.photo__chiefcube2{
+    width: 435px;
+    height: 435px;
+    background: #DCCA87;
+    padding: 0px;
+    margin: 0px;
+}
+.photo__chiefcube1{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+.photo__chiefcube2{
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+}
+.photo__chief{
+    position: absolute;
+    top: 24px;
+    left: 24px;
+}
+.mainblock__text{
+    width: 570px;
+    height: 615px;
+    position: absolute;
+    right: 190px;
+    top: 215px;
+}
+.text{
+    position: relative;
+}
+.title__ChefWord{
+    margin: 0px;
+    font-family: 'Cormorant Upright';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+}
+.title__vector{
+    margin: 8px 0px;
+}
+.text__title{
+    margin-bottom: 64px;
+}
+.title__Whatwebelieve{
+    margin: 0px;
+    font-family: 'Cormorant Upright';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 83px;
+    letter-spacing: 0.03em;
+    text-transform: capitalize;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+    color: #DCCA87;
+}
+.bgchief{
+    opacity: .5;
+    width: 1680px;
+    height: 1045px;
+}
+.text__maintext{
+    position: relative;
+}
+.text__maintext p{
+    font-family: 'Open Sans';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.04em;
+    color: #AAAAAA;
+    margin: 0px;
+}
+.p__top{
+    position: absolute;
+    top: 12px;
+    right: 7px;
+}
+.p__bottom{
+    position: absolute;
+    top: 40px;
+    left: 0px;
+}
+blockquote:before {
+    font-family: Georgia, serif;
+    position: absolute;
+    font-size: 6em;
+    line-height: 1;
+    top: 0;
+    left: -3px;
+    content: "\201C";
+}
+.text__name{
+    position: absolute;
+    top: 390px;
+    left: 0px;
+}
+.name__chief{
+    font-family: 'Cormorant Upright';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 42px;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+    color: #DCCA87;
+    margin: 0px ;
+}
+.name__post{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height:28px;
+    letter-spacing: 0.04em;
+    color: #AAAAAA;
+    margin: 8px 0px  0px 0px;
+}
+.signature{
+    margin: 0px;
+    width: 237px;
+    height: 83px;
+    position: absolute;
+    top: 532px;
+    left: 0px;
+    font-family: 'Bestermind';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 83px;
+    letter-spacing: 0.04em;
+    color: #AAAAAA;
+}

@@ -1,0 +1,28 @@
+@import url('/styles/header.css');
+@import url('/styles/exploremenu.css');
+@import url('/styles/wrapknife.css');
+@import url('/styles/booktable.css');
+@import url('/styles/menulist.css');
+@import url('/styles/todaysspecial.css');
+@import url('/styles/whatwebelieve.css');
+@import url('/styles/circletext.css');
+@import url('/styles/happycustomers.css');
+@import url('/styles/video.css');
+@import url('/styles/ourLaurels.css');
+@import url('/styles/gerichtupdates.css');
+@import url('/styles/photogallery.css');
+@import url('/styles/SubscribetoOurNewsletter.css');
+@import url('/styles/footer.css');
+
+html,body{
+    position: relative;
+    width: 1920px;
+    margin: 0px auto;
+    background: #0C0B08;
+    color: #FFFFFF;
+    overflow-x:hidden;
+    z-index: 99;
+}
+button{
+    cursor: pointer;
+}
